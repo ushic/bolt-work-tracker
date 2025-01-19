@@ -1,7 +1,6 @@
-
 export const en = {
   app: {
-    title: 'TL.Work.Track'
+    title: 'Work Tracker'
   },
   user: {
     name: 'John Doe',
@@ -21,7 +20,9 @@ export const en = {
     forms: 'Forms',
     selectForm: 'Select a form',
     yes: 'Yes',
-    no: 'No'
+    no: 'No',
+		search: 'Search Content',
+		active: 'Active'
   },
   navigation: {
     overallWork: 'Overall Work',
@@ -383,10 +384,7 @@ export const en = {
         regional: 'Regional Warehouse',
         local: 'Local Warehouse'
       },
-      statuses: {
-        active: 'Active',
-        inactive: 'Inactive'
-      }
+      active: 'Active' 
     },
     table: {
       code: 'Code',

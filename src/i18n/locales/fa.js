@@ -1,19 +1,18 @@
-
 export const fa = {
   app: {
-    title: 'تی‌ال.ورک.ترک'
+    title: 'همراه کار'
   },
   user: {
     name: 'جان دو',
     role: 'مدیر سیستم'
   },
   common: {
-    new: 'افزودن',
-    export: 'دریافت خروجی',
+    new: 'جدید',
+    export: 'خروجی اکسل',
     edit: 'ویرایش اطلاعات',
     delete: 'حذف کردن',
-    save: 'ذخیره‌سازی',
-    cancel: 'لغو عملیات',
+    save: 'ذخیره‌',
+    cancel: 'لغو',
     actions: 'عملیات‌ها',
     confirmDelete: 'آیا از حذف این {{item}} اطمینان دارید؟ این عملیات قابل ��ازگشت نیست.',
     attachments: 'پیوست‌ها',
@@ -22,9 +21,10 @@ export const fa = {
     selectForm: 'انتخاب فرم',
     yes: 'بله، حذف شود',
     no: 'خیر، منصرف شدم',
-    search: 'جستجو...',
+    search: 'جستجوی محتوی',
     noResults: 'نتیجه‌ای یافت نشد',
-    loading: 'در حال بارگذاری...'
+    loading: 'در حال بارگذاری...',
+		active: 'فعال'
   },
   navigation: {
     overallWork: 'کارهای کلی',
@@ -74,7 +74,6 @@ export const fa = {
       name: 'نام',
       category: 'دسته‌بندی',
       description: 'توضیحات',
-      active: 'وضعیت فعالیت',
       selectCategory: 'انتخاب دسته‌بندی',
       categories: {
         maintenance: 'نگهداری',
@@ -101,10 +100,10 @@ export const fa = {
     form: {
       title: 'مخاطب جدید',
       titleEdit: 'ویرایش مخاطب',
-      firstName: 'نام کوچک',
+      firstName: 'نام',
       lastName: 'نام خانوادگی',
-      email: 'آدرس ایمیل',
-      phone: 'شماره تلفن',
+      email: 'ایمیل',
+      phone: 'تلفن',
       company: 'نام شرکت',
       jobTitle: 'عنوان شغلی',
       address: 'جزئیات آدرس',
@@ -132,7 +131,6 @@ export const fa = {
       code: 'کد شرکت',
       name: 'نام شرکت',
       type: 'نوع شرکت',
-      active: 'وضعیت فعالیت',
       types: {
         corporation: 'شرکت سهامی',
         llc: 'مسئولیت محدود',
@@ -162,7 +160,6 @@ export const fa = {
       code: 'کد',
       name: 'نام',
       category: 'دسته‌بندی',
-      active: 'وضعیت فعالیت',
       selectCategory: 'انتخاب دسته‌بندی',
       categories: {
         technician: 'تکنسین',
@@ -189,8 +186,7 @@ export const fa = {
       titleEdit: 'ویرایش فرم',
       code: 'کد',
       name: 'نام',
-      description: 'توضیحات',
-      active: 'وضعیت فعالیت'
+      description: 'توضیحات'
     },
     table: {
       code: 'کد',
@@ -212,7 +208,6 @@ export const fa = {
       name: 'نام',
       service: 'خدمت',
       description: 'توضیحات',
-      active: 'وضعیت فعالیت',
       selectService: 'انتخاب خدمت',
       labors: 'نیروی کار',
       parts: 'قطعات',
@@ -300,7 +295,6 @@ export const fa = {
       type: 'نوع',
       category: 'دسته‌بندی',
       warranty: 'گارانتی (ماه)',
-      active: 'وضعیت فعالیت',
       selectOption: 'انتخاب کنید',
       types: {
         mechanical: 'مکانیکی',
@@ -392,10 +386,7 @@ export const fa = {
         regional: 'انبار منطقه‌ای',
         local: 'انبار محلی'
       },
-      statuses: {
-        active: 'فعال',
-        inactive: 'غیرفعال'
-      }
+      active: 'فعال'
     },
     table: {
       code: 'کد',
