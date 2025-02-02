@@ -1,8 +1,8 @@
 import { createSidebar } from './components/Navigation/Sidebar';
 import { createTopBar } from './components/TopBar/TopBar';
 import { Router } from './router';
-import { ContactsPage } from './components/Pages/Businesses/Contacts';
-import { CompaniesPage } from './components/Pages/Businesses/Companies';
+//import { ContactsPage } from './components/Pages/Businesses/Contacts';
+//import { CompaniesPage } from './components/Pages/Businesses/Companies';
 import { SettingsPage } from './components/Pages/Administration/Settings';
 import { UsersPage } from './components/Pages/Administration/Users';
 import { RolesPage } from './components/Pages/Administration/Roles';
@@ -14,18 +14,18 @@ import { RequestsPage } from './components/Pages/Work/Requests';
 import { TasksPage } from './components/Pages/Work/Tasks';
 import { WorkOrdersPage } from './components/Pages/Work/WorkOrders';
 import { ProjectsPage } from './components/Pages/Work/Projects';
-import { LocationsPage } from './components/Pages/Assets/Locations';
+//import { LocationsPage } from './components/Pages/Assets/Locations';
 import { EquipmentPage } from './components/Pages/Assets/Equipment';
 import { ToolsPage } from './components/Pages/Assets/Tools';
 import { GroupsPage } from './components/Pages/Assets/Groups';
 import { StockPage } from './components/Pages/Supplies/Stock';
-import { WarehousesPage } from './components/Pages/Supplies/Warehouses';
-import { ServicesPage } from './components/Pages/Catalog/Services';
-import { NormsPage } from './components/Pages/Catalog/Norms';
-import { PartsPage } from './components/Pages/Catalog/Parts';
-import { LaborsPage } from './components/Pages/Catalog/Labors';
-import { FormsPage } from './components/Pages/Catalog/Forms';
-import { ContractsPage } from './components/Pages/Contracts';
+//import { WarehousesPage } from './components/Pages/Supplies/Warehouses';
+//import { ServicesPage } from './components/Pages/Catalog/Services';
+//import { NormsPage } from './components/Pages/Catalog/Norms';
+//import { PartsPage } from './components/Pages/Catalog/Parts';
+//import { LaborsPage } from './components/Pages/Catalog/Labors';
+//import { FormsPage } from './components/Pages/Catalog/Forms';
+//import { ContractsPage } from './components/Pages/Contracts';
 
 export function initializeApp(container) {
   // Initialize router
