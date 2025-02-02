@@ -39,8 +39,8 @@ export function initializeApp(container) {
   }
   
   // Add routes
-  router.addRoute('/contacts', ContactsPage);
-  router.addRoute('/companies', CompaniesPage);
+//  router.addRoute('/contacts', ContactsPage);
+//  router.addRoute('/companies', CompaniesPage);
   router.addRoute('/settings', SettingsPage);
   router.addRoute('/users', UsersPage);
   router.addRoute('/roles', RolesPage);
@@ -52,18 +52,18 @@ export function initializeApp(container) {
   router.addRoute('/work/tasks', TasksPage);
   router.addRoute('/work/orders', WorkOrdersPage);
   router.addRoute('/work/projects', ProjectsPage);
-  router.addRoute('/assets/locations', LocationsPage);
+//  router.addRoute('/assets/locations', LocationsPage);
   router.addRoute('/assets/equipment', EquipmentPage);
   router.addRoute('/assets/tools', ToolsPage);
   router.addRoute('/assets/groups', GroupsPage);
   router.addRoute('/supplies/stock', StockPage);
-  router.addRoute('/supplies/warehouses', WarehousesPage);
-  router.addRoute('/catalog/services', ServicesPage);
-  router.addRoute('/catalog/norms', NormsPage);
-  router.addRoute('/catalog/parts', PartsPage);
-  router.addRoute('/catalog/labors', LaborsPage);
-  router.addRoute('/catalog/forms', FormsPage);
-  router.addRoute('/contracts', ContractsPage);
+//  router.addRoute('/supplies/warehouses', WarehousesPage);
+//  router.addRoute('/catalog/services', ServicesPage);
+//  router.addRoute('/catalog/norms', NormsPage);
+//  router.addRoute('/catalog/parts', PartsPage);
+//  router.addRoute('/catalog/labors', LaborsPage);
+//  router.addRoute('/catalog/forms', FormsPage);
+//  router.addRoute('/contracts', ContractsPage);
   
   // Create main layout
   const sidebar = createSidebar(router);
