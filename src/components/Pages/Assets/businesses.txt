@@ -1,3 +1,0 @@
-Companies.js
-Contacts.js
-Contracts.js
